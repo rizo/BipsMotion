@@ -26,13 +26,13 @@ The input data is described in JSON. Here is a sample file:
 
 The array elements describe the frames where each value corespond to:
 
-- _identifier_ - A unique identifer of the object.
-- _x coordinate_, _y coordinate_ - The new position of the object.
-- _moment_ - The time value (in seconds).
+- `identifier` - A unique identifer of the object.
+- `x coordinate`, `y coordinate` - The new position of the object.
+- `moment` - The time value (in seconds).
 
 Currently the timing is not perfectly sincronized with the input values.
 Further improvments need to be done to the mapping of frames to time intervals.
 
-Another interesting feature would be random path generation. Further details are described in the proposal [#1][p1].
+Another interesting feature would be random path generation. Further details are described in the [proposal #1][p1].
 
 [p1]: https://github.com/rizo/BipsMotion/issues/1
