@@ -30,6 +30,8 @@ The array elements describe the frames where each value corespond to:
 - `x coordinate`, `y coordinate` - The new position of the object.
 - `moment` - The time value (in seconds).
 
+You can get the compiled application from the [relese page](https://github.com/rizo/BipsMotion/releases/tag/v0.0.1).
+
 Currently the timing is not perfectly sincronized with the input values.
 Further improvments need to be done in the mapping of frames to time intervals.
 
