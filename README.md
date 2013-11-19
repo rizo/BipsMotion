@@ -31,7 +31,7 @@ The array elements describe the frames where each value corespond to:
 - `moment` - The time value (in seconds).
 
 Currently the timing is not perfectly sincronized with the input values.
-Further improvments need to be done to the mapping of frames to time intervals.
+Further improvments need to be done in the mapping of frames to time intervals.
 
 Another interesting feature would be random path generation. Further details are described in the [proposal #1][p1].
 
