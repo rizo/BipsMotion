@@ -8,6 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AKDocument : NSDocument
+@class AKMapView;
 
+@interface AKDocument : NSDocument
+@property (weak) IBOutlet AKMapView *mapView;
+@property NSMutableDictionary *agentsByIdentifier;
 @end

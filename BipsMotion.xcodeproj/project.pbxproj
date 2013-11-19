@@ -18,6 +18,11 @@
 		736DD587183ADA1100F1F14D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736DD564183ADA1000F1F14D /* Cocoa.framework */; };
 		736DD58F183ADA1100F1F14D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 736DD58D183ADA1100F1F14D /* InfoPlist.strings */; };
 		736DD592183ADA1100F1F14D /* BipsMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 736DD591183ADA1100F1F14D /* BipsMotionTests.m */; };
+		736DD59D183ADA3400F1F14D /* AKAgentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 736DD59C183ADA3400F1F14D /* AKAgentView.m */; };
+		736DD5A2183ADA4E00F1F14D /* AKAgentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 736DD59F183ADA4E00F1F14D /* AKAgentModel.m */; };
+		736DD5A3183ADA4E00F1F14D /* AKMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 736DD5A1183ADA4E00F1F14D /* AKMapView.m */; };
+		736DD5A6183ADAC300F1F14D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736DD5A5183ADAC300F1F14D /* QuartzCore.framework */; };
+		737CAA19183B0A0D00E2147E /* Input-1.bips in Resources */ = {isa = PBXBuildFile; fileRef = 737CAA18183B0A0D00E2147E /* Input-1.bips */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		736DD58E183ADA1100F1F14D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		736DD590183ADA1100F1F14D /* BipsMotionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BipsMotionTests.h; sourceTree = "<group>"; };
 		736DD591183ADA1100F1F14D /* BipsMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BipsMotionTests.m; sourceTree = "<group>"; };
+		736DD59B183ADA3400F1F14D /* AKAgentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAgentView.h; sourceTree = "<group>"; };
+		736DD59C183ADA3400F1F14D /* AKAgentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAgentView.m; sourceTree = "<group>"; };
+		736DD59E183ADA4E00F1F14D /* AKAgentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAgentModel.h; sourceTree = "<group>"; };
+		736DD59F183ADA4E00F1F14D /* AKAgentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAgentModel.m; sourceTree = "<group>"; };
+		736DD5A0183ADA4E00F1F14D /* AKMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKMapView.h; sourceTree = "<group>"; };
+		736DD5A1183ADA4E00F1F14D /* AKMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKMapView.m; sourceTree = "<group>"; };
+		736DD5A4183ADAAF00F1F14D /* OGColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGColors.h; sourceTree = "<group>"; };
+		736DD5A5183ADAC300F1F14D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		737CAA18183B0A0D00E2147E /* Input-1.bips */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Input-1.bips"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736DD5A6183ADAC300F1F14D /* QuartzCore.framework in Frameworks */,
 				736DD565183ADA1000F1F14D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				736DD56A183ADA1000F1F14D /* BipsMotion */,
+				737CAA17183B0A0D00E2147E /* Input Examples */,
 				736DD58A183ADA1100F1F14D /* BipsMotionTests */,
 				736DD563183ADA1000F1F14D /* Frameworks */,
 				736DD562183ADA1000F1F14D /* Products */,
@@ -96,6 +112,7 @@
 		736DD563183ADA1000F1F14D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				736DD5A5183ADAC300F1F14D /* QuartzCore.framework */,
 				736DD564183ADA1000F1F14D /* Cocoa.framework */,
 				736DD585183ADA1100F1F14D /* SenTestingKit.framework */,
 				736DD566183ADA1000F1F14D /* Other Frameworks */,
@@ -116,10 +133,17 @@
 		736DD56A183ADA1000F1F14D /* BipsMotion */ = {
 			isa = PBXGroup;
 			children = (
+				736DD59E183ADA4E00F1F14D /* AKAgentModel.h */,
+				736DD59F183ADA4E00F1F14D /* AKAgentModel.m */,
+				736DD59B183ADA3400F1F14D /* AKAgentView.h */,
+				736DD59C183ADA3400F1F14D /* AKAgentView.m */,
 				736DD576183ADA1000F1F14D /* AKDocument.h */,
 				736DD577183ADA1000F1F14D /* AKDocument.m */,
 				736DD579183ADA1000F1F14D /* AKDocument.xib */,
+				736DD5A0183ADA4E00F1F14D /* AKMapView.h */,
+				736DD5A1183ADA4E00F1F14D /* AKMapView.m */,
 				736DD57C183ADA1000F1F14D /* MainMenu.xib */,
+				736DD5A4183ADAAF00F1F14D /* OGColors.h */,
 				736DD56B183ADA1000F1F14D /* Supporting Files */,
 			);
 			path = BipsMotion;
@@ -154,6 +178,14 @@
 				736DD58D183ADA1100F1F14D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		737CAA17183B0A0D00E2147E /* Input Examples */ = {
+			isa = PBXGroup;
+			children = (
+				737CAA18183B0A0D00E2147E /* Input-1.bips */,
+			);
+			path = "Input Examples";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +264,7 @@
 				736DD575183ADA1000F1F14D /* Credits.rtf in Resources */,
 				736DD57B183ADA1000F1F14D /* AKDocument.xib in Resources */,
 				736DD57E183ADA1000F1F14D /* MainMenu.xib in Resources */,
+				737CAA19183B0A0D00E2147E /* Input-1.bips in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +301,9 @@
 			files = (
 				736DD571183ADA1000F1F14D /* main.m in Sources */,
 				736DD578183ADA1000F1F14D /* AKDocument.m in Sources */,
+				736DD59D183ADA3400F1F14D /* AKAgentView.m in Sources */,
+				736DD5A2183ADA4E00F1F14D /* AKAgentModel.m in Sources */,
+				736DD5A3183ADA4E00F1F14D /* AKMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +501,7 @@
 				736DD597183ADA1100F1F14D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		736DD598183ADA1100F1F14D /* Build configuration list for PBXNativeTarget "BipsMotionTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +510,7 @@
 				736DD59A183ADA1100F1F14D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
