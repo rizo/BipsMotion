@@ -8,9 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class AKMapView;
+
+@class AKMapView, AKMosquittoClient;
 
 @interface AKDocument : NSDocument
+
+/*! The outlet for the map view. */
 @property (weak) IBOutlet AKMapView *mapView;
+
+/*! The container for all the agents, by identifer. */
 @property NSMutableDictionary *agentsByIdentifier;
+
 @end

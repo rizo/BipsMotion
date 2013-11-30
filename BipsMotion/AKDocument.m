@@ -9,6 +9,11 @@
 #import "AKDocument.h"
 #import "AKAgentModel.h"
 #import "AKMapView.h"
+#import "getMacAddress.h"
+#import "AKMosquittoClient.h"
+#import "AKApplicationDelegate.h"
+#import "AKRadarController.h"
+
 
 NSString * const AKDocumentDidLoadAgentsNotification = @"AKDocumentDidLoadAgents";
 
@@ -32,7 +37,8 @@ NSString * const AKDocumentDidLoadAgentsNotification = @"AKDocumentDidLoadAgents
 - (void)windowControllerDidLoadNib:(NSWindowController *)aController
 {
     [super windowControllerDidLoadNib:aController];
-    
+ 
+    // Load the document content if loaded.
     if (self.agentsByIdentifier.count > 0)
     {
         [self.mapView document:self didLoadAgents:self.agentsByIdentifier.allValues];
@@ -62,7 +68,7 @@ NSString * const AKDocumentDidLoadAgentsNotification = @"AKDocumentDidLoadAgents
     BOOL readSuccess = NO;
     NSArray *contentsArray = [NSJSONSerialization JSONObjectWithData:data
                                                              options:kNilOptions
-                                                                         error:outError];
+                                                               error:outError];
     if (! contentsArray && outError)
     {
         *outError = [NSError errorWithDomain:NSCocoaErrorDomain

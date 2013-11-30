@@ -8,6 +8,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 
+
 @class AKAgentModel;
 
 
@@ -28,5 +29,6 @@
  * \return The new agent view object.
  */
 - (id)initWithModel:(AKAgentModel *)model;
+
 
 @end

@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		731E619B18491CCB0027D79A /* getMacAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E619A18491CCB0027D79A /* getMacAddress.m */; };
+		731E619E18491D190027D79A /* AKMosquittoClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E619D18491D190027D79A /* AKMosquittoClient.m */; };
+		731E61A118491D520027D79A /* AKMosquittoMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E61A018491D520027D79A /* AKMosquittoMessage.m */; };
+		731E61BD18491E1A0027D79A /* logging_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61A518491E190027D79A /* logging_mosq.c */; };
+		731E61BE18491E1A0027D79A /* memory_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61A718491E190027D79A /* memory_mosq.c */; };
+		731E61BF18491E1A0027D79A /* messages_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61A918491E190027D79A /* messages_mosq.c */; };
+		731E61C018491E1A0027D79A /* mosquitto.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61AB18491E190027D79A /* mosquitto.c */; };
+		731E61C118491E1A0027D79A /* net_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61AF18491E190027D79A /* net_mosq.c */; };
+		731E61C218491E1A0027D79A /* read_handle.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61B118491E190027D79A /* read_handle.c */; };
+		731E61C318491E1A0027D79A /* read_handle_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61B318491E190027D79A /* read_handle_client.c */; };
+		731E61C418491E1A0027D79A /* read_handle_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61B418491E190027D79A /* read_handle_shared.c */; };
+		731E61C518491E1A0027D79A /* send_client_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61B518491E190027D79A /* send_client_mosq.c */; };
+		731E61C618491E1A0027D79A /* send_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61B618491E190027D79A /* send_mosq.c */; };
+		731E61C718491E1A0027D79A /* thread_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61B818491E190027D79A /* thread_mosq.c */; };
+		731E61C818491E1A0027D79A /* util_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61B918491E190027D79A /* util_mosq.c */; };
+		731E61C918491E1A0027D79A /* will_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 731E61BB18491E190027D79A /* will_mosq.c */; };
+		731E61CC184920940027D79A /* AKApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E61CB184920940027D79A /* AKApplicationDelegate.m */; };
+		731E61CF18495CA30027D79A /* AKRadarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E61CE18495CA30027D79A /* AKRadarController.m */; };
+		731E61D218495DF20027D79A /* AKDetectionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E61D118495DF10027D79A /* AKDetectionData.m */; };
+		731E61D51849709B0027D79A /* AKStationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E61D41849709A0027D79A /* AKStationView.m */; };
+		731E61D8184973ED0027D79A /* AKStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E61D7184973EC0027D79A /* AKStation.m */; };
 		736DD565183ADA1000F1F14D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736DD564183ADA1000F1F14D /* Cocoa.framework */; };
 		736DD56F183ADA1000F1F14D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 736DD56D183ADA1000F1F14D /* InfoPlist.strings */; };
 		736DD571183ADA1000F1F14D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 736DD570183ADA1000F1F14D /* main.m */; };
@@ -36,6 +57,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		731E619918491CCB0027D79A /* getMacAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getMacAddress.h; sourceTree = "<group>"; };
+		731E619A18491CCB0027D79A /* getMacAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getMacAddress.m; sourceTree = "<group>"; };
+		731E619C18491D190027D79A /* AKMosquittoClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKMosquittoClient.h; sourceTree = "<group>"; };
+		731E619D18491D190027D79A /* AKMosquittoClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKMosquittoClient.m; sourceTree = "<group>"; };
+		731E619F18491D520027D79A /* AKMosquittoMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKMosquittoMessage.h; sourceTree = "<group>"; };
+		731E61A018491D520027D79A /* AKMosquittoMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKMosquittoMessage.m; sourceTree = "<group>"; };
+		731E61A318491E190027D79A /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		731E61A418491E190027D79A /* dummypthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummypthread.h; sourceTree = "<group>"; };
+		731E61A518491E190027D79A /* logging_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = logging_mosq.c; sourceTree = "<group>"; };
+		731E61A618491E190027D79A /* logging_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging_mosq.h; sourceTree = "<group>"; };
+		731E61A718491E190027D79A /* memory_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory_mosq.c; sourceTree = "<group>"; };
+		731E61A818491E190027D79A /* memory_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory_mosq.h; sourceTree = "<group>"; };
+		731E61A918491E190027D79A /* messages_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = messages_mosq.c; sourceTree = "<group>"; };
+		731E61AA18491E190027D79A /* messages_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messages_mosq.h; sourceTree = "<group>"; };
+		731E61AB18491E190027D79A /* mosquitto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mosquitto.c; sourceTree = "<group>"; };
+		731E61AC18491E190027D79A /* mosquitto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mosquitto.h; sourceTree = "<group>"; };
+		731E61AD18491E190027D79A /* mosquitto_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mosquitto_internal.h; sourceTree = "<group>"; };
+		731E61AE18491E190027D79A /* mqtt3_protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mqtt3_protocol.h; sourceTree = "<group>"; };
+		731E61AF18491E190027D79A /* net_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = net_mosq.c; sourceTree = "<group>"; };
+		731E61B018491E190027D79A /* net_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net_mosq.h; sourceTree = "<group>"; };
+		731E61B118491E190027D79A /* read_handle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read_handle.c; sourceTree = "<group>"; };
+		731E61B218491E190027D79A /* read_handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = read_handle.h; sourceTree = "<group>"; };
+		731E61B318491E190027D79A /* read_handle_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read_handle_client.c; sourceTree = "<group>"; };
+		731E61B418491E190027D79A /* read_handle_shared.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read_handle_shared.c; sourceTree = "<group>"; };
+		731E61B518491E190027D79A /* send_client_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = send_client_mosq.c; sourceTree = "<group>"; };
+		731E61B618491E190027D79A /* send_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = send_mosq.c; sourceTree = "<group>"; };
+		731E61B718491E190027D79A /* send_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = send_mosq.h; sourceTree = "<group>"; };
+		731E61B818491E190027D79A /* thread_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread_mosq.c; sourceTree = "<group>"; };
+		731E61B918491E190027D79A /* util_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util_mosq.c; sourceTree = "<group>"; };
+		731E61BA18491E190027D79A /* util_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util_mosq.h; sourceTree = "<group>"; };
+		731E61BB18491E190027D79A /* will_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = will_mosq.c; sourceTree = "<group>"; };
+		731E61BC18491E1A0027D79A /* will_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = will_mosq.h; sourceTree = "<group>"; };
+		731E61CA184920940027D79A /* AKApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKApplicationDelegate.h; sourceTree = "<group>"; };
+		731E61CB184920940027D79A /* AKApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKApplicationDelegate.m; sourceTree = "<group>"; };
+		731E61CD18495CA30027D79A /* AKRadarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKRadarController.h; sourceTree = "<group>"; };
+		731E61CE18495CA30027D79A /* AKRadarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKRadarController.m; sourceTree = "<group>"; };
+		731E61D018495DF10027D79A /* AKDetectionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDetectionData.h; sourceTree = "<group>"; };
+		731E61D118495DF10027D79A /* AKDetectionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDetectionData.m; sourceTree = "<group>"; };
+		731E61D31849709A0027D79A /* AKStationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKStationView.h; sourceTree = "<group>"; };
+		731E61D41849709A0027D79A /* AKStationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKStationView.m; sourceTree = "<group>"; };
+		731E61D6184973EC0027D79A /* AKStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKStation.h; sourceTree = "<group>"; };
+		731E61D7184973EC0027D79A /* AKStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKStation.m; sourceTree = "<group>"; };
 		736DD561183ADA1000F1F14D /* BipsMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BipsMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736DD564183ADA1000F1F14D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		736DD567183ADA1000F1F14D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -89,10 +152,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		731E61A218491E190027D79A /* libmosquitto */ = {
+			isa = PBXGroup;
+			children = (
+				731E61A318491E190027D79A /* config.h */,
+				731E61A418491E190027D79A /* dummypthread.h */,
+				731E61A518491E190027D79A /* logging_mosq.c */,
+				731E61A618491E190027D79A /* logging_mosq.h */,
+				731E61A718491E190027D79A /* memory_mosq.c */,
+				731E61A818491E190027D79A /* memory_mosq.h */,
+				731E61A918491E190027D79A /* messages_mosq.c */,
+				731E61AA18491E190027D79A /* messages_mosq.h */,
+				731E61AB18491E190027D79A /* mosquitto.c */,
+				731E61AC18491E190027D79A /* mosquitto.h */,
+				731E61AD18491E190027D79A /* mosquitto_internal.h */,
+				731E61AE18491E190027D79A /* mqtt3_protocol.h */,
+				731E61AF18491E190027D79A /* net_mosq.c */,
+				731E61B018491E190027D79A /* net_mosq.h */,
+				731E61B118491E190027D79A /* read_handle.c */,
+				731E61B218491E190027D79A /* read_handle.h */,
+				731E61B318491E190027D79A /* read_handle_client.c */,
+				731E61B418491E190027D79A /* read_handle_shared.c */,
+				731E61B518491E190027D79A /* send_client_mosq.c */,
+				731E61B618491E190027D79A /* send_mosq.c */,
+				731E61B718491E190027D79A /* send_mosq.h */,
+				731E61B818491E190027D79A /* thread_mosq.c */,
+				731E61B918491E190027D79A /* util_mosq.c */,
+				731E61BA18491E190027D79A /* util_mosq.h */,
+				731E61BB18491E190027D79A /* will_mosq.c */,
+				731E61BC18491E1A0027D79A /* will_mosq.h */,
+			);
+			path = libmosquitto;
+			sourceTree = "<group>";
+		};
 		736DD558183ADA1000F1F14D = {
 			isa = PBXGroup;
 			children = (
 				736DD56A183ADA1000F1F14D /* BipsMotion */,
+				731E61A218491E190027D79A /* libmosquitto */,
 				737CAA17183B0A0D00E2147E /* Input Examples */,
 				736DD58A183ADA1100F1F14D /* BipsMotionTests */,
 				736DD563183ADA1000F1F14D /* Frameworks */,
@@ -137,13 +234,29 @@
 				736DD59F183ADA4E00F1F14D /* AKAgentModel.m */,
 				736DD59B183ADA3400F1F14D /* AKAgentView.h */,
 				736DD59C183ADA3400F1F14D /* AKAgentView.m */,
+				731E61CA184920940027D79A /* AKApplicationDelegate.h */,
+				731E61CB184920940027D79A /* AKApplicationDelegate.m */,
+				731E61D6184973EC0027D79A /* AKStation.h */,
+				731E61D7184973EC0027D79A /* AKStation.m */,
+				731E61D31849709A0027D79A /* AKStationView.h */,
+				731E61D41849709A0027D79A /* AKStationView.m */,
 				736DD576183ADA1000F1F14D /* AKDocument.h */,
 				736DD577183ADA1000F1F14D /* AKDocument.m */,
 				736DD579183ADA1000F1F14D /* AKDocument.xib */,
+				731E61CD18495CA30027D79A /* AKRadarController.h */,
+				731E61D018495DF10027D79A /* AKDetectionData.h */,
+				731E61D118495DF10027D79A /* AKDetectionData.m */,
+				731E61CE18495CA30027D79A /* AKRadarController.m */,
 				736DD5A0183ADA4E00F1F14D /* AKMapView.h */,
 				736DD5A1183ADA4E00F1F14D /* AKMapView.m */,
 				736DD57C183ADA1000F1F14D /* MainMenu.xib */,
 				736DD5A4183ADAAF00F1F14D /* OGColors.h */,
+				731E619C18491D190027D79A /* AKMosquittoClient.h */,
+				731E619D18491D190027D79A /* AKMosquittoClient.m */,
+				731E619F18491D520027D79A /* AKMosquittoMessage.h */,
+				731E61A018491D520027D79A /* AKMosquittoMessage.m */,
+				731E619918491CCB0027D79A /* getMacAddress.h */,
+				731E619A18491CCB0027D79A /* getMacAddress.m */,
 				736DD56B183ADA1000F1F14D /* Supporting Files */,
 			);
 			path = BipsMotion;
@@ -304,6 +417,27 @@
 				736DD59D183ADA3400F1F14D /* AKAgentView.m in Sources */,
 				736DD5A2183ADA4E00F1F14D /* AKAgentModel.m in Sources */,
 				736DD5A3183ADA4E00F1F14D /* AKMapView.m in Sources */,
+				731E619B18491CCB0027D79A /* getMacAddress.m in Sources */,
+				731E619E18491D190027D79A /* AKMosquittoClient.m in Sources */,
+				731E61A118491D520027D79A /* AKMosquittoMessage.m in Sources */,
+				731E61BD18491E1A0027D79A /* logging_mosq.c in Sources */,
+				731E61BE18491E1A0027D79A /* memory_mosq.c in Sources */,
+				731E61BF18491E1A0027D79A /* messages_mosq.c in Sources */,
+				731E61C018491E1A0027D79A /* mosquitto.c in Sources */,
+				731E61C118491E1A0027D79A /* net_mosq.c in Sources */,
+				731E61C218491E1A0027D79A /* read_handle.c in Sources */,
+				731E61C318491E1A0027D79A /* read_handle_client.c in Sources */,
+				731E61C418491E1A0027D79A /* read_handle_shared.c in Sources */,
+				731E61C518491E1A0027D79A /* send_client_mosq.c in Sources */,
+				731E61C618491E1A0027D79A /* send_mosq.c in Sources */,
+				731E61C718491E1A0027D79A /* thread_mosq.c in Sources */,
+				731E61C818491E1A0027D79A /* util_mosq.c in Sources */,
+				731E61C918491E1A0027D79A /* will_mosq.c in Sources */,
+				731E61CC184920940027D79A /* AKApplicationDelegate.m in Sources */,
+				731E61CF18495CA30027D79A /* AKRadarController.m in Sources */,
+				731E61D218495DF20027D79A /* AKDetectionData.m in Sources */,
+				731E61D51849709B0027D79A /* AKStationView.m in Sources */,
+				731E61D8184973ED0027D79A /* AKStation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +568,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BipsMotion/BipsMotion-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libmosquitto";
 				INFOPLIST_FILE = "BipsMotion/BipsMotion-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -446,6 +581,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BipsMotion/BipsMotion-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libmosquitto";
 				INFOPLIST_FILE = "BipsMotion/BipsMotion-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

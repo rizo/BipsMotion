@@ -10,6 +10,10 @@
 
 @interface AKMapView : NSView
 
+/*! The delegate method to notify the view about new agent objects.
+ * \param document The document that sent the notification.
+ * \param agents The array of new agent objects..
+ */
 - (void)document:(NSDocument *)document
    didLoadAgents:(NSArray *)agents;
 
