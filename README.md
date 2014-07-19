@@ -4,6 +4,8 @@ BipsMotion
 A simple experiment for animated trajectory drawing.  
 The application reads the timed-position sequence from a file and draws the encoded trajects to the canvas.
 
+![img](https://raw.githubusercontent.com/rizo/BipsMotion/master/Resources/screenshot.png)
+
 The input data is described in JSON. Here is a sample file:
 
 ```javascript
